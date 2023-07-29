@@ -54,4 +54,4 @@ class Number_frame(tk.Frame):
         # array of 10 images with 0 to 9 digits
         self.numeric_digit_images = []
         for i in range(10):
-            self.numeric_digit_images.append(ImageTk.PhotoImage(PIL.Image.open('img\scoreboard_' + str(i) + '.png', 'r').resize((20, 28)))) #.resize((width, height))))
+            self.numeric_digit_images.append(ImageTk.PhotoImage(PIL.Image.open('img/scoreboard_' + str(i) + '.png', 'r').resize((20, 28)))) #.resize((width, height))))

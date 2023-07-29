@@ -66,7 +66,7 @@ class Cell(tk.Label):
         img_size = int(self.app.cell_size * 0.6)
         # array with images for cell label (open cell) 
         for i in range(14):
-            self.cell_images.append(ImageTk.PhotoImage(PIL.Image.open('img\cell_' + str(i) + '.png').resize((img_size, img_size))))
+            self.cell_images.append(ImageTk.PhotoImage(PIL.Image.open('img/cell_' + str(i) + '.png').resize((img_size, img_size))))
         # Images:
         # 0-8 just numbers for adjacent mines
         # 9 clicked mine (red)
